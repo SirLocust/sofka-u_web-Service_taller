@@ -59,7 +59,7 @@ public class PersonController {
     body.put("message", "Persona creada con exito");
     body.put("errors", null);
     return ResponseEntity.status(HttpStatus.CREATED).body(body);
-    ;
+
   }
 
   @DeleteMapping(value = "person/{id}")
