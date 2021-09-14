@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 
 PersonController.java
-Person.java
+
 RepositoryPerson.java
 IPersonService.java
 ImpPersonService.java
